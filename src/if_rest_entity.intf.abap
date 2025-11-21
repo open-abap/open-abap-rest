@@ -12,4 +12,9 @@ INTERFACE if_rest_entity PUBLIC.
   METHODS get_header_fields RETURNING VALUE(rt_header_fields) TYPE tihttpnvp.
   METHODS set_binary_data IMPORTING iv_data TYPE xstring.
 
+  METHODS get_content_type
+    EXPORTING
+      ev_media_type TYPE string
+      et_parameter  TYPE tihttpnvp.
+
 ENDINTERFACE.
