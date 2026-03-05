@@ -23,4 +23,10 @@ INTERFACE if_rest_response PUBLIC.
       IV_NAME type STRING
       IV_VALUE type STRING .
 
+  METHODS get_header_field
+    IMPORTING
+      iv_name type string
+    RETURNING
+      value(rv_value) type string.
+
 ENDINTERFACE.
