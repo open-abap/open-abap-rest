@@ -20,7 +20,7 @@ INTERFACE if_rest_response PUBLIC.
 
   METHODS set_header_field
     IMPORTING
-      IV_NAME type STRING
+      IV_NAME  type STRING
       IV_VALUE type STRING .
 
   METHODS get_header_field
