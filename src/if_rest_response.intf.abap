@@ -17,4 +17,10 @@ INTERFACE if_rest_response PUBLIC.
       iv_status        TYPE i
       iv_reason_phrase TYPE string OPTIONAL.
 
+
+  METHODS set_header_field
+    IMPORTING
+      IV_NAME type STRING
+      IV_VALUE type STRING .
+
 ENDINTERFACE.
