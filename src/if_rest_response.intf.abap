@@ -26,7 +26,7 @@ INTERFACE if_rest_response PUBLIC.
   METHODS get_header_field
     IMPORTING
       VALUE(rv_value) TYPE string.
-    RETURNING
+  RETURNING
       value(rv_value) type string.
 
 ENDINTERFACE.
