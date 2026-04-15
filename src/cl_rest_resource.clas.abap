@@ -16,4 +16,8 @@ CLASS cl_rest_resource IMPLEMENTATION.
     RETURN.
   ENDMETHOD.
 
+  METHOD if_rest_resource~get.
+    RETURN.
+  ENDMETHOD.
+
 ENDCLASS.
