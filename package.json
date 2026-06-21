@@ -1,0 +1,22 @@
+{
+  "name": "open-abap-rest",
+  "private": true,
+  "version": "1.0.0",
+  "description": "REST stuff",
+  "scripts": {
+    "test": "abaplint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/open-abap/open-abap-rest.git"
+  },
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/open-abap/open-abap-rest/issues"
+  },
+  "homepage": "https://github.com/open-abap/open-abap-rest#readme",
+  "dependencies": {
+    "@abaplint/cli": "^2.119.37"
+  }
+}
