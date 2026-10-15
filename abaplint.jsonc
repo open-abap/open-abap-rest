@@ -153,6 +153,7 @@
       "if": true,
       "while": true,
       "case": true,
+      "catch": true,
       "select": true,
       "do": true,
       "at": true,
@@ -293,6 +294,7 @@
       "severity": "Error",
       "statements": 100,
       "errorWhenEmpty": true,
+      "checkFunctionModules": true,
       "ignoreTestClasses": false,
       "checkForms": true
     },
