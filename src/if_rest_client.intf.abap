@@ -1,0 +1,3 @@
+INTERFACE if_rest_client PUBLIC.
+
+ENDINTERFACE.
